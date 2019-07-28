@@ -2,6 +2,7 @@ package navicore.augorama.routes
 
 import java.util.Date
 
+import navicore.augorama.Conf._
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives._
 import akka.http.scaladsl.server.{Directives, Route}
 import com.typesafe.scalalogging.LazyLogging

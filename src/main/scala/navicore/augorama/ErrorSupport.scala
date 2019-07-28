@@ -21,8 +21,6 @@ trait ErrorSupport extends LazyLogging {
     .iterator
     .toList
     .map(origin => HttpOrigin(origin))
-  val urlpath: String = conf.getString("main.path")
-  val port: Int = conf.getInt("main.port")
 
   val corsSettings: CorsSettings = CorsSettings.defaultSettings.withAllowedOrigins(HttpOriginMatcher(corsOriginList: _*))
 

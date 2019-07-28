@@ -6,6 +6,7 @@ import ch.megard.akka.http.cors.scaladsl.CorsDirectives._
 import com.typesafe.scalalogging.LazyLogging
 import navicore.augorama.ErrorSupport
 import navicore.augorama.models.JsonSupport
+import navicore.augorama.Conf._
 
 object ApiRoute
     extends JsonSupport
