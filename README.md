@@ -1,6 +1,12 @@
 Augorama
 =======
 
+A prototype-based actor system for tracking digital twin state via json and xml telemetry.
+
+#UNDER CONSTRUCTION
+#UNDER CONSTRUCTION
+#UNDER CONSTRUCTION
+
 to test:
 
 `sbt test`
